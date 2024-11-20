@@ -6,9 +6,10 @@ class UsersController < ApplicationController
         else
             render json:{message:"Error created", errors: @user.errors.full_messages}
         end
-
     end
-
+    def index
+        render json: {users: User.all.map(&:as_json)}
+    end
     private
     def user_params
         params.required(:user).permit(:email, :password, :name)
