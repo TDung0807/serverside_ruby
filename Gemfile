@@ -41,3 +41,5 @@ group :development, :test do
 end
 
 
+
+gem "jwt", "~> 2.9"

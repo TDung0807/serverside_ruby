@@ -100,6 +100,8 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.8.2)
+    jwt (2.9.3)
+      base64
     language_server-protocol (3.17.0.3)
     logger (1.6.1)
     loofah (2.23.1)
@@ -235,6 +237,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  jwt (~> 2.9)
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.1)
