@@ -1,0 +1,37 @@
+$primary-color: #0056b3;
+$shadow-color: rgba(0, 0, 0, 0.1);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.background {
+  height: 100vh;
+  background-image: url("./../../assets/Theme/LoginTheme.png"); // Replace with actual image path
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  width: 505px;
+  background-color: white;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px $shadow-color;
+  text-align: center;
+}
+
+.logoImage {
+  margin-top: 40px;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading_font {
+  font-family: "Montserrat", sans-serif; /* Typography */
+  color: #4c4a4a;
+  font-size: 30px;
+}
