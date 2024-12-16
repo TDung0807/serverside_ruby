@@ -1,0 +1,35 @@
+{
+"user": [
+    { "id": 1, "username": "john.doe@example.com", "password": "password123", "role": "admin" },
+    { "id": 2, "username": "jane.smith@example.com", "password": "securepass", "role": "user" }
+],
+"event": [
+    { "event_id": 1, "name": "Tech Conference", "date": 20250120, "description": "Annual tech conference", "duration": 2, "location": 101, "participants": 200 },
+    { "event_id": 2, "name": "Music Festival", "date": 20250615, "description": "Outdoor music festival", "duration": 3, "location": 102, "participants": 5000 }
+],
+"transport": [
+    { "transport_id": 1, "start_at": 101, "end_at": 102, "time": 60 },
+    { "transport_id": 2, "start_at": 102, "end_at": 103, "time": 90 }
+],
+"hotel": [
+    { "hotel_id": 1, "name": "Grand Hotel", "address": "123 Main St", "rating": 5, "star": 4 },
+    { "hotel_id": 2, "name": "Ocean View", "address": "456 Beach Rd", "rating": 4, "star": 3 }
+],
+"vehicle": [
+    { "vehicle_id": 1, "name": "Bus" },
+    { "vehicle_id": 2, "name": "Train" }
+],
+"dish": [
+    { "id": 1, "type": "Starter", "ingredient": "Tomato, Basil", "price": 10, "description": "Fresh tomato soup" },
+    { "id": 2, "type": "Main", "ingredient": "Chicken, Rice", "price": 20, "description": "Grilled chicken with rice" }
+],
+"restaurant": [
+    { "id": 1, "name": "The Gourmet Spot", "address": "789 Elm St", "cuisine": "Italian", "contact": "123-456-7890" },
+    { "id": 2, "name": "Sushi World", "address": "321 Sushi Ave", "cuisine": "Japanese", "contact": "987-654-3210" }
+],
+"room": [
+    { "name": "Deluxe Suite", "price": 200, "remark": "Ocean view", "id": 1 },
+    { "name": "Standard Room", "price": 100, "remark": "City view", "id": 2 }
+]
+}
+  
